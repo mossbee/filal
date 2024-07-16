@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="test.owl"
+         xmlns="test.owl#">
+
+<owl:Ontology rdf:about="test.owl"/>
+
+<owl:Class rdf:about="#Agency">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:NamedIndividual rdf:about="#quốc hội">
+  <rdf:type rdf:resource="#Agency"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#ủy ban thường vụ quốc hội">
+  <rdf:type rdf:resource="#Agency"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#đoàn chủ tịch ủy ban trung ương mặt trận tổ quốc việt nam">
+  <rdf:type rdf:resource="#Agency"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#chính phủ">
+  <rdf:type rdf:resource="#Agency"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#chủ tịch nước">
+  <rdf:type rdf:resource="#Agency"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#thủ tướng chính phủ">
+  <rdf:type rdf:resource="#Agency"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#hội đồng thẩm phán tòa án nhân dân tối cao">
+  <rdf:type rdf:resource="#Agency"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#tòa án nhân dân tối cao">
+  <rdf:type rdf:resource="#Agency"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#viện kiểm sát nhân dân tối cao">
+  <rdf:type rdf:resource="#Agency"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#tổng kiểm toán nhà nước">
+  <rdf:type rdf:resource="#Agency"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#bộ, cơ quan ngang bộ">
+  <rdf:type rdf:resource="#Agency"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#bộ quốc phòng">
+  <rdf:type rdf:resource="#Agency"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#bộ công an">
+  <rdf:type rdf:resource="#Agency"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#bộ ngoại giao">
+  <rdf:type rdf:resource="#Agency"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#bộ tư pháp">
+  <rdf:type rdf:resource="#Agency"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#bộ tài chính">
+  <rdf:type rdf:resource="#Agency"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#bộ công thương">
+  <rdf:type rdf:resource="#Agency"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#bộ lao động thương binh và xã hội">
+  <rdf:type rdf:resource="#Agency"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#bộ giao thông vận tải">
+  <rdf:type rdf:resource="#Agency"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#bộ xây dựng">
+  <rdf:type rdf:resource="#Agency"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#bộ thông tin và truyền thông">
+  <rdf:type rdf:resource="#Agency"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#bộ giáo dục và đào tạo">
+  <rdf:type rdf:resource="#Agency"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#bộ nông nghiệp và phát triển nông thôn">
+  <rdf:type rdf:resource="#Agency"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#bộ kế hoạch và đầu tư">
+  <rdf:type rdf:resource="#Agency"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#bộ nội vụ">
+  <rdf:type rdf:resource="#Agency"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#bộ y tế">
+  <rdf:type rdf:resource="#Agency"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#bộ khoa học và công nghệ">
+  <rdf:type rdf:resource="#Agency"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#bộ văn hóa thể thao và du lịch">
+  <rdf:type rdf:resource="#Agency"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#bộ tài nguyên và môi trường">
+  <rdf:type rdf:resource="#Agency"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#văn phòng chính phủ">
+  <rdf:type rdf:resource="#Agency"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#thanh tra chính phủ">
+  <rdf:type rdf:resource="#Agency"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#ngân hàng nhà nước">
+  <rdf:type rdf:resource="#Agency"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#ủy ban dân tộc">
+  <rdf:type rdf:resource="#Agency"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#hội đồng nhân dân">
+  <rdf:type rdf:resource="#Agency"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#ủy ban nhân dân">
+  <rdf:type rdf:resource="#Agency"/>
+</owl:NamedIndividual>
+
+
+</rdf:RDF>

@@ -1,0 +1,1084 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://example.org/appendix_ontology.owl"
+         xmlns="http://example.org/appendix_ontology.owl#">
+
+<owl:Ontology rdf:about="http://example.org/appendix_ontology.owl"/>
+
+<owl:Class rdf:about="#ngành_nghề_kinh_doanh_có_điều_kiện">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#sản_xuất_con_dấu">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_công_cụ_hỗ_trợ_(bao_gồm_cả_sửa_chữa)">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_các_loại_pháo">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_cầm_đồ">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_xoa_bóp">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_thiết_bị_phát_tín_hiệu_của_xe_được_quyền_ưu_tiên">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_bảo_vệ">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_súng_bắn_sơn">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#hành_nghề_luật_sư">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#hành_nghề_công_chứng">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#hành_nghề_giám_định_tư_pháp_trong_các_lĩnh_vực_tài_chính,_ngân_hàng,_xây_dựng,_cổ_vật,_di_vật,_bản_quyền_tác_giả">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#hành_nghề_bán_đấu_giá_tài_sản">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#hoạt_động_dịch_vụ_của_tổ_chức_trọng_tài_thương_mại">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#hành_nghề_thừa_phát_lại">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#hành_nghề_quản_tài_viên">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_kế_toán">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_kiểm_toán">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_làm_thủ_tục_về_thuế">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_làm_thủ_tục_hải_quan">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_hàng_miễn_thuế">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_lưu_kho_ngoại_quan">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_thu_gom_hàng_lẻ_ở_nội_địa">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_tập_kết,_kiểm_tra_hải_quan_trong,_ngoài_khu_vực_cửa_khẩu">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_chứng_khoán">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_đăng_ký,_lưu_ký,_bù_trừ_và_thanh_toán_chứng_khoán_của_trung_tâm_lưu_ký_chứng_khoán/_tổ_chức_thị_trường_giao_dịch_chứng_khoán_niêm_yết_và_các_loại_chứng_khoán_khác.">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_bảo_hiểm">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_tái_bảo_hiểm">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#môi_giới_bảo_hiểm">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#đại_lý_bảo_hiểm">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_đào_tạo_đại_lý_bảo_hiểm">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_thẩm_định_giá">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_tư_vấn_xác_định_giá_trị_doanh_nghiệp_để_cổ_phần_hóa">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_xổ_số">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_trò_chơi_điện_tử_có_thưởng_dành_cho_người_nước_ngoài">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_đòi_nợ">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_mua_bán_nợ">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_xếp_hạng_tín_nhiệm">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_casino">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_đặt_cược">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_quản_lý_quỹ_hưu_trí_tự_nguyện">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_xăng_dầu">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_khí">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_giám_định_thương_mại">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_vật_liệu_nổ_công_nghiệp_(bao_gồm_cả_hoạt_động_tiêu_hủy)">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_tiền_chất_thuốc_nổ">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_ngành,_nghề_có_sử_dụng_vật_liệu_nổ_công_nghiệp_và_tiền_chất_thuốc_nổ">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_nổ_mìn">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_hóa_chất_trừ_hóa_chất_bị_cấm_theo_công_ước_quốc_tế_về_cấm_phát_triển,_sản_xuất,_tàng_trữ,_sử_dụng_và_phá_hủy_vũ_khí_hóa_học">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_phân_bón_vô_cơ">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_rượu">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_sản_phẩm_thuốc_lá,_nguyên_liệu_thuốc_lá,_máy_móc_thiết_bị_thuộc_chuyên_ngành_thuốc_lá">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#hoạt_động_sở_giao_dịch_hàng_hóa">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#hoạt_động_phát_điện,_truyền_tải,_phân_phối,_bán_buôn,_bán_lẻ,_xuất,_nhập_khẩu_điện,_tư_vấn_chuyên_ngành_điện_lực">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_thực_phẩm_thuộc_lĩnh_vực_quản_lý_chuyên_ngành_của_bộ_công_thương">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#xuất_khẩu_gạo">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_tạm_nhập,_tái_xuất_hàng_hóa_có_thuế_tiêu_thụ_đặc_biệt">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_tạm_nhập,_tái_xuất_hàng_thực_phẩm_đông_lạnh">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_tạm_nhập,_tái_xuất_hàng_hóa_thuộc_danh_mục_hàng_hóa_đã_qua_sử_dụng">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#nhượng_quyền_thương_mại">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_than">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_lô-gi-stíc">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_khoáng_sản">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_tiền_chất_công_nghiệp">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#hoạt_động_mua_bán_hàng_hóa_và_các_hoạt_động_liên_quan_trực_tiếp_đến_hoạt_động_mua_bán_hàng_hóa_của_nhà_đầu_tư_nước_ngoài">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#hoạt_động_thương_mại_điện_tử">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#hoạt_động_dầu_khí">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_đánh_giá_sự_phù_hợp_với_thiết_bị_áp_lực,_thiết_bị_nâng_đặc_thù_chuyên_ngành_công_nghiệp,_hóa_chất,_vật_liệu_nổ_công_nghiệp,_trang_thiết_bị_khai_thác_mỏ,_dầu_khí,_trừ_các_thiết_bị,_phương_tiện_thăm_dò,_khai_thác_trên_biển">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#hoạt_động_dạy_nghề">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#hoạt_động_liên_kết_đào_tạo_nghề_trình_độ_trung_cấp,_cao_đẳng_với_cơ_sở_dạy_nghề_của_nước_ngoài,_cơ_sở_dạy_nghề_có_vốn_đầu_tư_nước_ngoài">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_phòng_cháy,_chữa_cháy">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_đánh_giá_kỹ_năng_nghề">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_kiểm_định_chất_lượng_chương_trình_liên_kết_đào_tạo_nghề_với_cơ_sở_dạy_nghề_nước_ngoài_và_cơ_sở_dạy_nghề_có_vốn_đầu_tư_nước_ngoài_tại_việt_nam">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_kiểm_định_kỹ_thuật_an_toàn_lao_động_đối_với_các_máy,_thiết_bị_vật_tư_có_yêu_cầu_nghiêm_ngặt_về_an_toàn_lao_động">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_huấn_luyện_an_toàn_lao_động,_vệ_sinh_lao_động">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_việc_làm">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_đưa_người_lao_động_đi_làm_việc_ở_nước_ngoài">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_cai_nghiện_ma_túy_tự_nguyện">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_chứng_nhận_và_công_bố_hợp_quy">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_cho_thuê_lại_lao_động">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_vận_tải_đường_bộ">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_bảo_hành,_bảo_dưỡng_xe_ô_tô">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_kiểm_định_xe_cơ_giới">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_đào_tạo_lái_xe_ô_tô">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_đào_tạo_thẩm_tra_viên_an_toàn_giao_thông">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_sát_hạch_lái_xe">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_thẩm_tra_an_toàn_giao_thông">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_vận_tải_đường_thủy">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_đóng_mới,_hoán_cải,_sửa_chữa,_phục_hồi_phương_tiện_thủy_nội_địa">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_đào_tạo_thuyền_viên_và_người_lái_phương_tiện_thủy_nội_địa">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_vận_tải_biển,_dịch_vụ_đại_lý_tàu_biển">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_theo_phương_thức_bán_hàng_đa_cấp">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_lai_dắt_tàu_biển">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#nhập_khẩu,_phá_dỡ_tàu_biển_đã_qua_sử_dụng">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_đóng_mới,_hoán_cải,_sửa_chữa_tàu_biển">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_khai_thác_cảng_biển">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_vận_tải_hàng_không">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_thiết_kế,_sản_xuất,_bảo_dưỡng_hoặc_thử_nghiệm_tàu_bay,_động_cơ_tàu_bay,_cánh_quạt_tàu_bay_và_trang_bị,_thiết_bị_tàu_bay_tại_việt_nam">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_cảng_hàng_không,_sân_bay">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_hàng_không_tại_cảng_hàng_không,_sân_bay">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_cung_cấp_bảo_đảm_hoạt_động_bay">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_đào_tạo,_huấn_luyện_nghiệp_vụ_nhân_viên_hàng_không">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_vận_tải_đường_sắt">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_kết_cấu_hạ_tầng_đường_sắt">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_đường_sắt_đô_thị">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_vận_tải_đa_phương_thức">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_vận_chuyển_hàng_nguy_hiểm_bằng_phương_tiện_giao_thông_đường_bộ,_đường_thủy">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_vận_tải_đường_ống">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_bảo_đảm_hàng_hải">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_bất_động_sản">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_đào_tạo,_bồi_dưỡng_kiến_thức_về_môi_giới_bất_động_sản,_định_giá_bất_động_sản,_quản_lý_điều_hành_sàn_giao_dịch_bất_động_sản">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_đào_tạo,_bồi_dưỡng_kiến_thức_chuyên_môn,_nghiệp_vụ_quản_lý_vận_hành_nhà_chung_cư">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_bồi_dưỡng_nghiệp_vụ_quản_lý_dự_án_đầu_tư_xây_dựng_công_trình">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_tư_vấn_quản_lý_dự_án">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_khảo_sát_xây_dựng">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_tổ_chức_thiết_kế,_thẩm_tra_thiết_kế_xây_dựng">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_tư_vấn_giám_sát_thi_công_xây_dựng_công_trình">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_thi_công_xây_dựng_công_trình">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_lập,_thẩm_tra_xây_dựng_dự_án_đầu_tư_xây_dựng">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#hoạt_động_xây_dựng_của_nhà_đầu_tư_nước_ngoài">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_quản_lý_chi_phí_đầu_tư_xây_dựng">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_kiểm_định,_chứng_nhận_sự_phù_hợp_về_chất_lượng_công_trình_xây_dựng">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_quản_lý_vận_hành_hệ_thống_chiếu_sáng,_cây_xanh">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_quản_lý,_vận_hành_hệ_thống_cơ_sở_hạ_tầng_dùng_chung">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_lập_thiết_kế_quy_hoạch_xây_dựng">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_lập_quy_hoạch_đô_thị_do_tổ_chức,_cá_nhân_nước_ngoài_thực_hiện">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_sản_phẩm_amiang_trắng_thuộc_nhóm_serpentine">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_bưu_chính">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_viễn_thông">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#nhập_khẩu_thiết_bị_phát,_thu_phát_sóng_vô_tuyến_điện">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_chứng_thực_chữ_ký_số">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#thành_lập,_hoạt_động_nhà_xuất_bản">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_in">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_phát_hành_xuất_bản_phẩm">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_mạng_xã_hội">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_trò_chơi_trên_mạng">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_phát_thanh,_truyền_hình_trả_tiền">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_thiết_lập_trang_thông_tin_điện_tử_tổng_hợp">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#dịch_vụ_gia_công,_tái_chế,_sửa_chữa,_làm_mới_sản_phẩm_công_nghệ_thông_tin_đã_qua_sử_dụng_thuộc_danh_mục_sản_phẩm_công_nghệ_thông_tin_đã_qua_sử_dụng_cấm_nhập_khẩu_cho_đối_tác_nước_ngoài">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_truyền_hình_theo_yêu_cầu">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#cung_cấp_dịch_vụ_nội_dung_thông_tin,_dịch_vụ_công_nghệ_thông_tin_trên_mạng_viễn_thông_di_động,_mạng_internet">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_các_thiết_bị_gây_nhiễu,_phá_sóng_thông_tin_di_động">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_sản_phẩm_và_dịch_vụ_an_toàn_thông_tin">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#hoạt_động_của_cơ_sở_giáo_dục_đại_học">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#hoạt_động_của_cơ_sở_giáo_dục_có_vốn_đầu_tư_nước_ngoài,_văn_phòng_đại_diện_giáo_dục_nước_ngoài_tại_việt_nam,_phân_hiệu_cơ_sở_giáo_dục_có_vốn_đầu_tư_nước_ngoài">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#hoạt_động_của_cơ_sở_giáo_dục_thường_xuyên">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#hoạt_động_của_trung_tâm_giáo_dục_quốc_phòng_-_an_ninh_sinh_viên">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#hoạt_động_của_cơ_sở_giáo_dục_phổ_thông">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#hoạt_động_giáo_dục_trung_cấp_chuyên_nghiệp">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#hoạt_động_của_các_trường_chuyên_biệt">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#hoạt_động_của_cơ_sở_giáo_dục_mầm_non">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#hoạt_động_liên_kết_đào_tạo_với_nước_ngoài">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#dịch_vụ_tổ_chức_dạy_thêm_học_thêm">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#khai_thác_thủy_sản">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_ngư_cụ_và_trang_thiết_bị_khai_thác_thủy_sản">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_thủy_sản">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_thức_ăn_thủy_sản">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_chế_phẩm_sinh_học,_vi_sinh_vật,_hóa_chất,_chất_xử_lý_cải_tạo_môi_trường_trong_nuôi_trồng_thủy_sản">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_khảo_nghiệm_giống_thủy_sản">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_khảo_nghiệm_thức_ăn_thủy_sản">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#nuôi_sinh_sản,_nuôi_sinh_trưởng,_trồng_cấy_nhân_tạo_các_loài_động_vật,_thực_vật_hoang_dã_theo_phụ_lục_của_công_ước_cites">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#nuôi_sinh_sản,_nuôi_sinh_trưởng,_trồng_cấy_nhân_tạo_các_loài_động_vật,_thực_vật_hoang_dã,_nguy_cấp,_quý,_hiếm_không_quy_định_tại_các_phụ_lục_của_công_ước_cites">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#nuôi_sinh_sản,_nuôi_sinh_trưởng_động_vật_hoang_dã_thông_thường">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#xuất_khẩu,_nhập_khẩu,_tái_xuất_khẩu,_quá_cảnh_và_nhập_nội_từ_biển_mẫu_vật_từ_tự_nhiên_quy_định_tại_các_phụ_lục_của_công_ước_cites">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#xuất_khẩu,_nhập_khẩu,_tái_xuất_khẩu_mẫu_vật_nuôi_sinh_sản,_nuôi_sinh_trưởng,_trồng_cấy_nhân_tạo_quy_định_tại_các_phụ_lục_của_công_ước_cites">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_thuốc_bảo_vệ_thực_vật">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_xử_lý_vật_thể_thuộc_diện_kiểm_dịch_thực_vật">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_khảo_nghiệm_thuốc_bảo_vệ_thực_vật">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_bảo_vệ_thực_vật">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_thuốc_thú_y,_chế_phẩm_sinh_học,_vắc_xin,_vi_sinh_vật,_hóa_chất_dùng_trong_thú_y">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_kỹ_thuật_về_thú_y">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_xét_nghiệm,_phẫu_thuật_động_vật">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_tiêm_phòng,_chẩn_đoán_bệnh,_kê_đơn,_chữa_bệnh,_chăm_sóc_sức_khỏe_động_vật">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_thử_nghiệm,_khảo_nghiệm_thuốc_thú_y_(bao_gồm_thuốc_thú_y,_thuốc_thú_y_thủy_sản,_vắc_xin,_chế_phẩm_sinh_học,_vi_sinh_vật,_hóa_chất_dùng_trong_thú_y,_thú_y_thủy_sản)">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_chăn_nuôi_tập_trung,_sản_xuất_con_giống;_giết_mổ_động_vật;_cách_ly_kiểm_dịch_động_vật,_sản_phẩm_động_vật;_sản_xuất_nguyên_liệu_có_nguồn_gốc_động_vật_để_sản_xuất_thức_ăn_chăn_nuôi,_sơ_chế,_chế_biến,_bảo_quản_động_vật,_sản_phẩm_động_vật;_kinh_doanh_sản_phẩm_động_vật,_sơ_chế,_chế_biến,_bao_gói,_bảo_quản_sản_phẩm_động_vật">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_thực_phẩm_thuộc_lĩnh_vực_quản_lý_chuyên_ngành_của_bộ_nông_nghiệp_và_phát_triển_nông_thôn">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh,_khảo_nghiệm_phân_bón_hữu_cơ">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_giống_cây_trồng,_vật_nuôi">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#sản_xuất_thức_ăn_chăn_nuôi">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#nhập_khẩu_thức_ăn_chăn_nuôi">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#xuất_khẩu,_nhập_khẩu_động_vật,_thực_vật_hoang_dã_quý_hiếm,_trên_cạn_nguy_cấp_cần_kiểm_soát_theo_phụ_lục_của_công_ước_cites">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_thực_vật_rừng,_động_vật_rừng_hạn_chế_khai_thác,_sử_dụng_vì_mục_đích_thương_mại">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_cây_cảnh,_cây_bóng_mát,_cây_cổ_thụ_từ_rừng_tự_nhiên_trong_nước">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_củi_than_từ_gỗ_hoặc_củi_có_nguồn_gốc_từ_gỗ_rừng_tự_nhiên_trong_nước">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_tinh,_phôi,_trứng_giống_và_ấu_trùng">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_chế_phẩm_sinh_học,_vi_sinh_vật,_hóa_chất,_chất_xử_lý_cải_tạo_môi_trường_trong_nuôi_trồng_thủy_sản">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_thử_nghiệm,_khảo_nghiệm_chế_phẩm_sinh_học,_vi_sinh_vật,_hóa_chất,_chất_xử_lý_cải_tạo_môi_trường_trong_nuôi_trồng_thủy_sản">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_sản_phẩm_biến_đổi_gen">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_đào_tạo,_bồi_dưỡng_về_đấu_thầu">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_của_đại_lý_đấu_thầu">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_tư_vấn_đánh_giá_dự_án_đầu_tư">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_đào_tạo_đánh_giá_dự_án_đầu_tư">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_khám_bệnh,_chữa_bệnh">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_xét_nghiệm_hiv">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_ngân_hàng_mô">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_hỗ_trợ_sinh_sản,_lưu_giữ_tinh_trùng,_lưu_giữ_phôi">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_thuốc">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_kiểm_nghiệm_thuốc">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#sản_xuất_mỹ_phẩm">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_xét_nghiệm_vi_sinh_vật_gây_bệnh_truyền_nhiễm">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_tiêm_chủng">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_hóa_chất,_chế_phẩm_diệt_côn_trùng,_diệt_khuẩn_dùng_trong_lĩnh_vực_gia_dụng_y_tế">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_điều_trị_nghiện_chất_dạng_thuốc_phiện_bằng_thuốc_thay_thế">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_thực_phẩm_thuộc_lĩnh_vực_quản_lý_chuyên_ngành_của_bộ_y_tế">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_phẫu_thuật_thẩm_mỹ">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_thực_hiện_kỹ_thuật_mang_thai_hộ">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_đánh_giá_sinh_khả_dụng_và_tương_đương_sinh_học_(ba/be)_của_thuốc">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_thử_thuốc_trên_lâm_sàng">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_trang_thiết_bị_y_tế">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#hoạt_động_của_cơ_sở_phân_loại_trang_thiết_bị_y_tế">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_kiểm_định_trang_thiết_bị_y_tế">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_giám_định_sở_hữu_công_nghiệp">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_tiến_hành_công_việc_bức_xạ">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_hỗ_trợ_ứng_dụng_năng_lượng_nguyên_tử">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#xuất,_nhập_khẩu_và_vận_chuyển_vật_liệu_phóng_xạ">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_đánh_giá_sự_phù_hợp_theo_lĩnh_vực_khoa_học_công_nghệ">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_kiểm_định,_hiệu_chuẩn,_thử_nghiệm_phương_tiện_đo,_chuẩn_đo_lường">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_mũ_bảo_hiểm_cho_người_đi_mô_tô,_xe_máy">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_đánh_giá,_định_giá_và_giám_định_công_nghệ">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_đại_diện_quyền_sở_hữu_trí_tuệ">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#sản_xuất_phim">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_giám_định_cổ_vật">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_lập_quy_hoạch_dự_án_hoặc_tổ_chức_thi_công,_giám_sát_thi_công_dự_án_bảo_quản,_tu_bổ_và_phục_hồi_di_tích">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_karaoke,_vũ_trường">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_lữ_hành">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_hoạt_động_thể_thao">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_biểu_diễn_nghệ_thuật,_trình_diễn_thời_trang,_tổ_chức_thi_người_đẹp,_người_mẫu">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_bản_ghi_âm,_ghi_hình_ca_múa_nhạc,_sân_khấu">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_tổ_chức_lễ_hội">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_tác_phẩm_mỹ_thuật,_nhiếp_ảnh">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_lưu_trú">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_quảng_cáo">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#mua_bán_di_vật,_cổ_vật,_bảo_vật_quốc_gia">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_bảo_tàng">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_trò_chơi_điện_tử_(trừ_kinh_doanh_trò_chơi_điện_tử_có_thưởng_dành_cho_người_nước_ngoài_và_kinh_doanh_trò_chơi_điện_tử_có_thưởng_trên_mạng)">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#xuất_khẩu_di_vật,_cổ_vật_không_thuộc_sở_hữu_nhà_nước,_sở_hữu_của_tổ_chức_chính_trị,_tổ_chức_chính_trị-xã_hội;_nhập_khẩu_hàng_hóa_văn_hóa_thuộc_diện_quản_lý_chuyên_ngành_của_bộ_văn_hóa,_thể_thao_và_du_lịch">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_giám_định_quyền_tác_giả,_quyền_liên_quan">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_tư_vấn_điều_tra,_đánh_giá_đất_đai">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_về_lập_quy_hoạch,_kế_hoạch_sử_dụng_đất">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_xây_dựng_hạ_tầng_kỹ_thuật_công_nghệ_thông_tin,_xây_dựng_phần_mềm_của_hệ_thống_thông_tin_đất_đai">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_xây_dựng_cơ_sở_dữ_liệu_đất_đai">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_xác_định_giá_đất">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_đấu_giá_quyền_sử_dụng_đất">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_đo_đạc_và_bản_đồ">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_khoan_nước_dưới_đất">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_thăm_dò_nước_dưới_đất">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_khai_thác,_xử_lý_và_cung_cấp_nước">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_thoát_nước">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_thăm_dò_khoáng_sản">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#khai_thác_khoáng_sản">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_quản_lý_chất_thải_nguy_hại">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#nhập_khẩu_phế_liệu">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_quan_trắc_môi_trường">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_tư_vấn_lập_báo_cáo_đánh_giá_môi_trường_chiến_lược,_đánh_giá_tác_động_môi_trường,_đề_án_bảo_vệ_môi_trường_chi_tiết">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_chế_phẩm_sinh_học">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_dịch_vụ_thu_hồi,_vận_chuyển,_xử_lý_sản_phẩm_thải_bỏ">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#hoạt_động_kinh_doanh_của_các_ngân_hàng_thương_mại">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#hoạt_động_kinh_doanh_của_các_tổ_chức_tín_dụng_phi_ngân_hàng">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#hoạt_động_kinh_doanh_của_ngân_hàng_hợp_tác_xã,_quỹ_tín_dụng_nhân_dân,_tổ_chức_tài_chính_vi_mô">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#cung_ứng_dịch_vụ_trung_gian_thanh_toán">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#cung_ứng_dịch_vụ_thông_tin_tín_dụng">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#hoạt_động_ngoại_hối">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_mua,_bán_vàng_miếng">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#sản_xuất_vàng_miếng,_xuất_khẩu_vàng_nguyên_liệu_và_nhập_khẩu_vàng_nguyên_liệu_để_sản_xuất_vàng_miếng">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#sản_xuất_vàng_trang_sức,_mỹ_nghệ">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#nhập_khẩu_hàng_hóa_thuộc_diện_quản_lý_chuyên_ngành_của_ngân_hàng_nhà_nước_(cửa_kho_tiền)">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#hoạt_động_in,_đúc_tiền">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+<owl:Class rdf:about="#kinh_doanh_quân_trang,_quân_dụng_cho_lực_lượng_vũ_trang,_vũ_khí_quân_dụng,_trang_thiết_bị,_kỹ_thuật,_khí_tài,_phương_tiện_chuyên_dùng_quân_sự,_công_an;_linh_kiện,_bộ_phận,_phụ_tùng,_vật_tư_và_trang_thiết_bị_đặc_chủng,_công_nghệ_chuyên_dùng_chế_tạo_chúng">
+  <rdfs:subClassOf rdf:resource="#ngành_nghề_kinh_doanh_có_điều_kiện"/>
+</owl:Class>
+
+
+</rdf:RDF>
